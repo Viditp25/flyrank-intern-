@@ -178,19 +178,19 @@ The capstone notebook generates aggregate charts and metrics under `work/figures
 
 ### Figure 1. Average Precision: Classifiers vs. Week 4 Rule Baseline
 
-![Average Precision comparison](flyrank_paper_assets/capstone_average_precision.png)
+![Average Precision comparison](./capstone_average_precision.png)
 
 Random Forest has the highest Average Precision among the classifiers (0.6096), followed by Logistic Regression (0.5988), Decision Tree (0.5975), and the Week 4 rule baseline (0.5028). This comparison is based on the same client-grouped held-out test partition.
 
 ### Figure 2. Client-Grouped Out-of-Fold Review-Priority Score Distribution
 
-![Review-priority score distribution](flyrank_paper_assets/capstone_priority_score_distribution.png)
+![Review-priority score distribution](./capstone_priority_score_distribution.png)
 
 The distribution describes out-of-fold scores used to rank records for human review against the observed declining-label proxy. These scores are not calibrated probabilities of future decline or of benefit from a content refresh.
 
 ### Figure 3. Ranked Review Queue by Reason Code
 
-![Ranked review queue by reason code](flyrank_paper_assets/capstone_reason_codes.png)
+![Ranked review queue by reason code](./capstone_reason_codes.png)
 
 The largest reason-code groups are `MOMENTUM_DOWN+HIGH_REVIEW_SCORE` and `LOW_EVIDENCE`. These categories support triage and human review; they do not establish that a record requires a refresh or that refreshing it will improve performance.
 
